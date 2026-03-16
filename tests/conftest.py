@@ -3,7 +3,7 @@
 import pytest
 
 def pytest_configure(config):
-    # Module 0 markers
+    # Module 0 markers (keep these existing lines)
     config.addinivalue_line("markers", "task0_1: Task 0.1 operators")
     config.addinivalue_line("markers", "task0_2: Task 0.2 property tests")
     config.addinivalue_line("markers", "task0_3: Task 0.3 functional")
